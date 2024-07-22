@@ -1,10 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Head from "next/head";
 import image from "../img/construction.jpg";
 
 function Home() {
   return (
     <div>
+      <Head>
+        <link rel="icon" href="../img/favicon.png" />
+      </Head>
+
       <h1
         style={{
           color: "#1c2e35",
