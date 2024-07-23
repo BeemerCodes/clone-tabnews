@@ -7,9 +7,8 @@ function Home() {
   return (
     <div>
       <Head>
-        <link rel="icon" href="../img/favicon.png" />
+        <link rel="icon" href="../img/favicon.png" type="../img/favicon.png" />
       </Head>
-
       <h1
         style={{
           color: "#1c2e35",
